@@ -1,4 +1,3 @@
-
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Features } from "@/components/Features";
@@ -13,17 +12,14 @@ const Index = () => {
       
       <main className="flex-grow">
         <Hero />
-        
         <Features />
-        
         <Overview />
         
-        {/* CTA Section */}
         <section className="section bg-primary text-primary-foreground">
           <div className="container-custom text-center">
             <h2 className="text-3xl md:text-4xl font-bold">Ready to transform your customer service?</h2>
             <p className="mt-4 text-xl opacity-90 max-w-2xl mx-auto">
-              Join thousands of businesses providing exceptional support experiences with SupportLounge.
+              Join thousands of businesses providing exceptional support experiences with ChatEase.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <a 

@@ -9,10 +9,10 @@ export const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-              Connect with your customers <span className="text-primary">in real-time</span>
+              Make customer support <span className="text-primary">effortless</span>
             </h1>
             <p className="mt-6 text-xl text-gray-600">
-              SupportLounge helps you provide exceptional customer service with real-time chat, agent availability, and seamless communication.
+              ChatEase helps you provide exceptional customer service with real-time chat, agent availability, and seamless communication.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Link to="/signup" className="btn-primary text-center">

@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import { Github, Twitter, Facebook } from "lucide-react";
 
@@ -10,9 +9,9 @@ export const Footer = () => {
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center space-x-2">
               <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
-                <span className="text-white font-bold text-lg">SL</span>
+                <span className="text-white font-bold text-lg">CE</span>
               </div>
-              <span className="text-xl font-semibold text-gray-900">SupportLounge</span>
+              <span className="text-xl font-semibold text-gray-900">ChatEase</span>
             </Link>
             <p className="mt-4 text-gray-600 text-sm">
               Modern customer support platform that helps you connect with your customers in real-time.
@@ -60,7 +59,7 @@ export const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-600 text-sm">
-            © {new Date().getFullYear()} SupportLounge. All rights reserved.
+            © {new Date().getFullYear()} ChatEase. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <Link to="/" className="text-gray-600 hover:text-primary text-sm transition-colors">Privacy Policy</Link>

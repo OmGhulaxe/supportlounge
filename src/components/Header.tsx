@@ -11,9 +11,9 @@ export const Header = () => {
       <div className="container-custom py-4 flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
           <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
-            <span className="text-white font-bold text-lg">SL</span>
+            <span className="text-white font-bold text-lg">CE</span>
           </div>
-          <span className="text-xl font-semibold text-gray-900">SupportLounge</span>
+          <span className="text-xl font-semibold text-gray-900">ChatEase</span>
         </Link>
         
         <div className="hidden md:flex items-center space-x-8">
